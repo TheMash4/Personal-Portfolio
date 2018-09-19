@@ -2,21 +2,22 @@
     padding: 80px;
     text-align: center;
     background-color:  blueviolet;
-    color: white;
+    color: black;
 }
 .header h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 .nav {
     overflow: hidden;
     background-color: #333;
+    padding: 16px;
 }
 .nav a {
     font-size: 25px;
     display: absolute;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 .nav a:hover {
@@ -51,14 +52,21 @@
     display: flex;
 }
 
+
 .column {
     flex: 50%;
     padding: 10px;
 }
 .column img{
-    height: 80%;
+    height: 100%;
 }
-.column p{
+
+.column2 {
+    background-color: blueviolet;
+    flex: 50%;
+    padding: 10px;
+}
+.column2 p{
     line-height: 1.6;
     font-size:30px;
 }
