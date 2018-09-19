@@ -70,7 +70,10 @@
     line-height: 1.6;
     font-size:30px;
 }
-
+.column2 h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', ;
+}
 
 .main h1 {
     font-size: 50px;
