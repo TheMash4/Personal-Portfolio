@@ -47,4 +47,18 @@
   .text {
       font-size: 200px;
   }
-  
+  .row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+.column img{
+    height: 80%;
+}
+.column p{
+    line-height: 1.6;
+    font-size:30px;
+}
