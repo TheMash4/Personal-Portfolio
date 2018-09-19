@@ -98,6 +98,10 @@
     background-color: white;
     padding: 10px;
 }
+.content img{
+    width:100px;
+    height:500px;
+}
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
